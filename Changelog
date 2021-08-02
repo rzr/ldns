@@ -1,4 +1,7 @@
-1.7.0	2016-12-20
+1.7.0.1	2021-??-??
+	* Fix #135: Fix compile with OpenSSL-3.0.0-beta2.
+
+1.7.0	2016-12-19
 	* Fix lookup of relative names in ldns_resolver_search.
 	* bugfix #548: Double free for answers > 4096 in ldns_resolver_send_pkt
 	* Follow CNAME's when tracing with drill (TODO dnssec trace)
